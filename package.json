@@ -1,0 +1,10 @@
+{
+  "name": "llama-steve",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Point him at your repo. He ships 3 features and spits on the rest.",
+  "bin": { "llama-steve": "./llama-steve.mjs" },
+  "scripts": { "test": "node --test test/*.mjs" },
+  "author": { "name": "Artem Iagovdik", "email": "artem.iagovdik@y1.de", "url": "https://github.com/artttj" },
+  "license": "MIT"
+}

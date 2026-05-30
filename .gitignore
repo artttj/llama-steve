@@ -1,0 +1,8 @@
+node_modules/
+reports/
+site/
+docs/superpowers/
+.brainstorm/
+.DS_Store
+/tmp/
+*.log
