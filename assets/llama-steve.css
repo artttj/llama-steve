@@ -194,3 +194,32 @@
   footer .fl{display:flex;gap:22px;justify-content:center;margin-bottom:16px;color:var(--ink-3)}
 /* verdict stamp variants */
 .stamp.spit{color:#d8302f;border-color:#d8302f;box-shadow:0 2px 0 rgba(216,48,47,.15)}
+
+/* ---------- theme toggle ---------- */
+.theme-btn{width:30px;height:30px;border-radius:50%;border:1px solid var(--line-2);background:transparent;
+  color:var(--ink-2);cursor:pointer;display:grid;place-items:center;font-size:13px;line-height:1;flex:none;
+  transition:background .15s,color .15s,border-color .15s}
+.theme-btn:hover{background:var(--bg-warm);color:var(--ink)}
+.theme-btn .sun{display:none}.theme-btn .moon{display:inline}
+[data-theme="dark"] .theme-btn .moon{display:none}[data-theme="dark"] .theme-btn .sun{display:inline}
+
+/* ---------- dark theme (sonto-news palette + light from the top) ---------- */
+[data-theme="dark"]{
+  --ink:#e8eaed; --ink-2:#b0b0b0; --ink-3:#9b9ba1; --ink-4:#7c7c82;
+  --bg:#1c1c1e; --bg-warm:#242428; --bg-warm2:#2a2a2e;
+  --line:rgba(255,255,255,.09); --line-2:rgba(255,255,255,.15);
+  --green:#48dc55; --green-deep:#62e06d; --slate:#8bb4d8; --fire:#ff8a52;
+  --glass:rgba(28,28,32,.62);
+}
+[data-theme="dark"] body{
+  background:radial-gradient(ellipse 95% 55% at 50% -8%, rgba(150,185,225,.16), rgba(72,220,85,.05) 38%, transparent 68%), var(--bg);
+  background-attachment:fixed;
+}
+[data-theme="dark"] .brand .dot,[data-theme="dark"] .nav-cta,[data-theme="dark"] .install{color:var(--bg)}
+[data-theme="dark"] .ad-card,[data-theme="dark"] .terminal,[data-theme="dark"] .verdict-card{background:#242428;border-color:var(--line)}
+[data-theme="dark"] .ad-stats{background:linear-gradient(160deg,#26262b,#1f1f23)}
+[data-theme="dark"] .killbox{background:rgba(255,106,43,.07);border-color:rgba(255,106,43,.20)}
+[data-theme="dark"] .portrait-tag{border-color:rgba(255,255,255,.14)}
+[data-theme="dark"] .verdict{background:linear-gradient(180deg,#1c1c1e,#202024)}
+[data-theme="dark"] .terminal{box-shadow:0 40px 80px -40px rgba(0,0,0,.6),0 2px 8px rgba(0,0,0,.3)}
+[data-theme="dark"] .install .copy{background:rgba(0,0,0,.12)}
