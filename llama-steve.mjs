@@ -32,10 +32,12 @@ async function main() {
   const reportsDir = join(LS, 'reports')
 
   if (args.verb === 'landing') {
-    const example = JSON.parse(readFileSync(join(LS, 'assets/example.json'), 'utf8'))
+    const demoPath = join(LS, 'assets/demo.json')
+    const src = existsSync(demoPath) ? demoPath : join(LS, 'assets/example.json')
+    const data = JSON.parse(readFileSync(src, 'utf8'))
     const out = join(LS, 'site')
-    buildReport(example, out, { mode: 'landing' })
-    console.log(`built public landing → ${out}/index.html`)
+    buildReport(data, out, { mode: 'landing' })
+    console.log(`built public landing → ${out}/index.html (from ${src})`)
     return
   }
 
