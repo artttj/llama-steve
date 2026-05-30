@@ -25,8 +25,9 @@ Then, in any repo:
 /llama-steve
 ```
 
-He scans the repo, runs a 10x teardown, kills the noise through the Steve Jobs filter, and opens an
-Apple-white report on localhost with the 3 moves worth building and a humanized verdict.
+He reads your repo, finds the ideas that would actually move it, and cuts most of them. What's left
+opens as a report on localhost: the three moves worth building, the pile of good ideas he said no to,
+and a blunt verdict that doesn't read like a robot wrote it.
 
 🔮 **Live demo:** https://sonto.space/steve
 
@@ -39,16 +40,17 @@ Apple-white report on localhost with the 3 moves worth building and a humanized 
 
 ## What he hands back
 
-- The handful of features worth building, fire-ranked by least effort ÷ most benefit.
-- The good ideas he said **no** to (the point — focus is saying no).
-- A binary verdict — **SHEEP IT** or **SPIT IT** — in the Llama Steve voice, run through the humanizer.
+- The few features worth building, ranked by effort against payoff.
+- The good ideas he said **no** to. That list is the whole point.
+- One verdict, **SHEEP IT** or **SPIT IT**, in his voice and run through the humanizer so it reads human.
 
 ## How it works
 
-A llama trained on the Steve Jobs archive (six mental models, eight decision heuristics, full
-expression DNA). The persona, the 10x finder, and the humanizer all ship inside the plugin — zero
-external skills, zero runtime dependencies. The teardown runs in your Claude Code session (Claude by
-default; pin a model with `LLAMA_STEVE_MODEL`). Built on the llama-smith report-on-localhost engine.
+He's a llama who did the homework: the Steve Jobs biographies, the interviews, the keynotes, boiled
+down into the mental models and heuristics the man actually decided with. All of it ships inside the
+plugin, so there's nothing else to install and nothing to wire up. The teardown runs in your Claude
+Code session on whatever Claude model you're already using; set `LLAMA_STEVE_MODEL` to pin one. The
+report engine is the same one that powers llama-smith.
 
 ## License
 
