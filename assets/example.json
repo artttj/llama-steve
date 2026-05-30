@@ -1,0 +1,17 @@
+{
+  "product": { "name": "focusflow", "oneLiner": "a habit tracker", "scannedAt": "2026-05-31T09:00:00Z", "scope": "41 screens" },
+  "ideasConsidered": 12,
+  "features": [
+    { "rank": 1, "heat": 3, "name": "Open straight to the one next thing",
+      "desc": "Kill the dashboard. No grid, no graphs on launch — just the single habit due right now and a button the size of your thumb. The dashboard was you showing off, not them getting it done.",
+      "effort": "LOW", "impact": "10×", "build": "1 weekend" },
+    { "rank": 2, "heat": 3, "name": "A streak you can feel, not a number you forget",
+      "desc": "One honest line that grows — a thread that gets longer, not a 47 in gray text. People don't protect a counter. They protect a thing they can see they're building.",
+      "effort": "LOW", "impact": "HIGH", "build": "2 days" },
+    { "rank": 3, "heat": 2, "name": "The one-question setup",
+      "desc": "\"What's one thing you want to do every day?\" That's onboarding. Done. Five screens of preferences is five chances to leave. Ask once, start now.",
+      "effort": "LOW", "impact": "HIGH", "build": "1 day" }
+  ],
+  "killed": ["social feed", "badges & XP", "an AI coach chatbot", "team workspaces", "a settings page for dark mode (just ship dark)", "weekly email digest", "integrations marketplace", "mood tracking", "a web app, for now"],
+  "verdict": { "stamp": "SHEEP IT", "quote": "Look — most of what you built was you talking to yourself. The dashboard, the badges, the chatbot. Nobody downloads a habit app to admire a chart. The one-tap today screen is the whole product. Cut the other nine. Ship those three and they'll feel like one idea, not ten. That version I'd put my name on." }
+}
