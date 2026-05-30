@@ -13,5 +13,5 @@
       "effort": "LOW", "impact": "HIGH", "build": "1 day" }
   ],
   "killed": ["social feed", "badges & XP", "an AI coach chatbot", "team workspaces", "a settings page for dark mode (just ship dark)", "weekly email digest", "integrations marketplace", "mood tracking", "a web app, for now"],
-  "verdict": { "stamp": "SHEEP IT", "quote": "Look — most of what you built was you talking to yourself. The dashboard, the badges, the chatbot. Nobody downloads a habit app to admire a chart. The one-tap today screen is the whole product. Cut the other nine. Ship those three and they'll feel like one idea, not ten. That version I'd put my name on." }
+  "verdict": { "stamp": "SHEEP IT", "quote": "Most of what you built was you talking to yourself — the dashboard, the badges, the chatbot. The one-tap today screen is the whole product. Cut the other nine and ship those three. That version I'd put my name on." }
 }

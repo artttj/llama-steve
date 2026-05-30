@@ -13,7 +13,7 @@ test('contains no CJK characters', () => {
 })
 
 test('is branded LLama Steve and declares the teardown protocol + output contract', () => {
-  assert.match(skill, /LLama Steve/)
+  assert.match(skill, /Llama Steve/)
   assert.match(skill, /## Teardown Protocol/)
   assert.match(skill, /result\.json/)
   assert.match(skill, /SHEEP IT/)

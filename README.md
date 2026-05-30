@@ -1,8 +1,8 @@
-<p align="center"><img src="assets/llama-steve.png" width="200" alt="LLama Steve"></p>
+<p align="center"><img src="assets/llama-steve.png" width="200" alt="Llama Steve"></p>
 
-<h1 align="center">LLama Steve</h1>
+<h1 align="center">Llama Steve</h1>
 
-<p align="center">Your roadmap has 1,000 features. He ships 3.</p>
+<p align="center">Your roadmap has 1,000 ideas. Llama Steve ships 3.</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Claude_Code-plugin-48dc55" alt="plugin">
@@ -23,9 +23,16 @@ Then, in any repo:
 ```
 
 He scans the repo, runs a 10x teardown, kills the noise through the Steve Jobs filter, and opens an
-Apple-white report on localhost with the 3 features worth your weekend and a humanized verdict.
+Apple-white report on localhost with the 3 moves worth building and a humanized verdict.
 
-🔮 **Live demo:** https://artttj.de/llama-steve
+🔮 **Live demo:** https://sonto.space/steve
+
+## See it
+
+<p align="center">
+  <img src="assets/screenshots/light.png" width="49%" alt="Llama Steve teardown — light">
+  <img src="assets/screenshots/dark.png" width="49%" alt="Llama Steve teardown — dark">
+</p>
 
 ## What he hands back
 

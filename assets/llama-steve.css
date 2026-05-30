@@ -52,8 +52,8 @@
                radial-gradient(circle at 30% 30%, rgba(58,90,109,.10), transparent 55%);
     filter:blur(20px);
   }
-  .eyebrow{position:relative;z-index:1;font-size:13px;font-weight:600;letter-spacing:.02em;
-    color:var(--green-deep); margin-bottom:18px}
+  .eyebrow{position:relative;z-index:1;font-family:var(--serif);font-style:italic;font-size:17px;font-weight:500;letter-spacing:0;
+    color:#b84a34; margin-bottom:16px}
   h1{position:relative;z-index:1;font-size:clamp(40px,6.4vw,76px);line-height:1.04;
     letter-spacing:-.025em;font-weight:680;}
   h1 .sub{display:block;color:var(--ink-4);font-weight:600}
@@ -107,7 +107,7 @@
   .ad-h em{font-style:normal;color:var(--ink-4)}
   .ad-p{margin-top:18px;color:var(--ink-2);font-size:16.5px;line-height:1.62;max-width:46ch}
   .ad-p b{font-weight:600;color:var(--ink)}
-  .ad-stats{border-left:1px solid var(--line);background:linear-gradient(160deg,#fbfbfd,#f0eeec);
+  .ad-stats{border-left:1px solid var(--line);background:linear-gradient(160deg,rgba(251,251,253,.74),rgba(240,238,236,.82)),url("mental-model.png") center/cover no-repeat;
     padding:40px 36px;display:flex;flex-direction:column;justify-content:center;gap:22px}
   .stat .n{font-size:38px;font-weight:700;letter-spacing:-.03em;line-height:1}
   .stat .n .u{font-size:18px;color:var(--ink-4);font-weight:600;margin-left:3px}
@@ -200,8 +200,11 @@
   color:var(--ink-2);cursor:pointer;display:grid;place-items:center;font-size:13px;line-height:1;flex:none;
   transition:background .15s,color .15s,border-color .15s}
 .theme-btn:hover{background:var(--bg-warm);color:var(--ink)}
-.theme-btn .sun{display:none}.theme-btn .moon{display:inline}
-[data-theme="dark"] .theme-btn .moon{display:none}[data-theme="dark"] .theme-btn .sun{display:inline}
+.nav-right{display:flex;align-items:center;gap:10px}
+.theme-btn svg{width:16px;height:16px}
+.theme-btn .sun{display:none}.theme-btn .moon{display:block}
+[data-theme="dark"] .theme-btn .moon{display:none}[data-theme="dark"] .theme-btn .sun{display:block}
+[data-theme="dark"] .eyebrow{color:#e07a5f}
 
 /* ---------- dark theme (sonto-news palette + light from the top) ---------- */
 [data-theme="dark"]{
@@ -217,7 +220,7 @@
 }
 [data-theme="dark"] .brand .dot,[data-theme="dark"] .nav-cta,[data-theme="dark"] .install{color:var(--bg)}
 [data-theme="dark"] .ad-card,[data-theme="dark"] .terminal,[data-theme="dark"] .verdict-card{background:#242428;border-color:var(--line)}
-[data-theme="dark"] .ad-stats{background:linear-gradient(160deg,#26262b,#1f1f23)}
+[data-theme="dark"] .ad-stats{background:linear-gradient(160deg,rgba(38,38,43,.72),rgba(31,31,35,.82)),url("mental-model.png") center/cover no-repeat}
 [data-theme="dark"] .killbox{background:rgba(255,106,43,.07);border-color:rgba(255,106,43,.20)}
 [data-theme="dark"] .portrait-tag{border-color:rgba(255,255,255,.14)}
 [data-theme="dark"] .verdict{background:linear-gradient(180deg,#1c1c1e,#202024)}
