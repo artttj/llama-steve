@@ -1,9 +1,9 @@
   :root{
-    --ink:#1d1d1f; --ink-2:#424245; --ink-3:#6e6e73; --ink-4:#86868b;
+    --ink:#1d1d1f; --ink-2:#424245; --ink-3:#67676c; --ink-4:#6e6e73;
     --bg:#fbfbfd; --bg-warm:#f5f5f7; --bg-warm2:#f0eeec;
     --line:rgba(0,0,0,.08); --line-2:rgba(0,0,0,.12);
-    --green:#48dc55; --green-deep:#1faa2e;
-    --slate:#3a5a6d; --fire:#ff6a2b; --editorial:#b84a34;
+    --green:#48dc55; --green-deep:#0f7a1c;
+    --slate:#3a5a6d; --fire:#c2410c; --editorial:#b84a34;
     --glass:rgba(255,255,255,.62);
     --display:-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue",sans-serif;
     --serif:"New York",ui-serif,Georgia,"Times New Roman",serif;
@@ -208,17 +208,17 @@
 
 /* ---------- dark theme (sonto-news palette + light from the top) ---------- */
 [data-theme="dark"]{
-  --ink:#e8eaed; --ink-2:#b0b0b0; --ink-3:#9b9ba1; --ink-4:#7c7c82;
+  --ink:#e8eaed; --ink-2:#b0b0b0; --ink-3:#9b9ba1; --ink-4:#8a8a90;
   --bg:#1c1c1e; --bg-warm:#242428; --bg-warm2:#2a2a2e;
   --line:rgba(255,255,255,.09); --line-2:rgba(255,255,255,.15);
   --green:#48dc55; --green-deep:#62e06d; --slate:#8bb4d8; --fire:#ff8a52; --editorial:#ecd9a3;
   --glass:rgba(28,28,32,.62);
 }
 [data-theme="dark"] body{
-  background:radial-gradient(ellipse 95% 55% at 50% -8%, rgba(150,185,225,.16), rgba(72,220,85,.05) 38%, transparent 68%), var(--bg);
+  background:radial-gradient(ellipse 95% 55% at 50% -8%, rgba(245,225,165,.15), rgba(235,200,120,.06) 42%, transparent 70%), var(--bg);
   background-attachment:fixed;
 }
-[data-theme="dark"] .brand .dot,[data-theme="dark"] .nav-cta,[data-theme="dark"] .install{color:var(--bg)}
+[data-theme="dark"] .brand .dot,[data-theme="dark"] .nav-cta,[data-theme="dark"] .install,[data-theme="dark"] .btn-primary{color:var(--bg)}
 [data-theme="dark"] .ad-card,[data-theme="dark"] .terminal,[data-theme="dark"] .verdict-card{background:#242428;border-color:var(--line)}
 [data-theme="dark"] .ad-stats{background:linear-gradient(160deg,#26262b,#1f1f23)}
 [data-theme="dark"] .killbox{background:rgba(255,106,43,.07);border-color:rgba(255,106,43,.20)}
@@ -226,3 +226,5 @@
 [data-theme="dark"] .verdict{background:linear-gradient(180deg,#1c1c1e,#202024)}
 [data-theme="dark"] .terminal{box-shadow:0 40px 80px -40px rgba(0,0,0,.6),0 2px 8px rgba(0,0,0,.3)}
 [data-theme="dark"] .install .copy{background:rgba(0,0,0,.12)}
+.install .ga{color:var(--green)}
+[data-theme="dark"] .install .ga{color:#0c6e18}

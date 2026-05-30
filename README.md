@@ -29,7 +29,7 @@ He reads your repo, finds the ideas that would actually move it, and cuts most o
 opens as a report on localhost: the three moves worth building, the pile of good ideas he said no to,
 and a blunt verdict that doesn't read like a robot wrote it.
 
-🔮 **Live demo:** https://sonto.space/steve
+☁️ **Live demo:** https://sonto.space/steve
 
 ## See it
 
@@ -42,7 +42,7 @@ and a blunt verdict that doesn't read like a robot wrote it.
 
 - The few features worth building, ranked by effort against payoff.
 - The good ideas he said **no** to. That list is the whole point.
-- One verdict, **SHEEP IT** or **SPIT IT**, in his voice and run through the humanizer so it reads human.
+- One verdict, **SHEEP IT** or **SPIT IT**, in his voice and written to read like a person.
 
 ## How it works
 
