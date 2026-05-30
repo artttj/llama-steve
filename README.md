@@ -8,6 +8,9 @@
   <img src="https://img.shields.io/badge/Claude_Code-plugin-48dc55" alt="plugin">
   <img src="https://img.shields.io/badge/deps-zero-48dc55" alt="zero deps">
   <img src="https://img.shields.io/badge/verdict-SHEEP_IT_%2F_SPIT_IT-48dc55" alt="verdict">
+  <img src="https://img.shields.io/badge/license-MIT-48dc55" alt="MIT">
+  <img src="https://img.shields.io/badge/node-%E2%89%A520-48dc55" alt="node >=20">
+  <img src="https://img.shields.io/badge/tests-18%2F18-48dc55" alt="tests">
 </p>
 
 ## Quick install
@@ -38,7 +41,7 @@ Apple-white report on localhost with the 3 moves worth building and a humanized 
 
 - The handful of features worth building, fire-ranked by least effort ÷ most benefit.
 - The good ideas he said **no** to (the point — focus is saying no).
-- A binary verdict — **SHEEP IT** or **SPIT IT** — in his voice, run through the humanizer.
+- A binary verdict — **SHEEP IT** or **SPIT IT** — in the Llama Steve voice, run through the humanizer.
 
 ## How it works
 

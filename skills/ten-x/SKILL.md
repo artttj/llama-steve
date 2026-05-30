@@ -2,7 +2,7 @@
 name: ten-x
 description: |
   Find the 10x product opportunities — the few high-leverage moves that change the product by an
-  order of magnitude, not the incremental ones. Used by LLama Steve inside the teardown to generate
+  order of magnitude, not the incremental ones. Used by Llama Steve inside the teardown to generate
   candidate ideas before the Jobs filter cuts them down. Triggers on "10x", "game-changing
   features", "what should we build next", "high-leverage".
 ---
