@@ -160,7 +160,9 @@
   .killbox h4{font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--fire);
     font-weight:680;margin-bottom:10px}
   .killbox p{color:var(--ink-2);font-size:15px;line-height:1.6}
-  .killbox s{color:var(--ink-4);text-decoration-thickness:1px}
+  .kill-list{list-style:none;display:flex;flex-wrap:wrap;gap:9px 16px;margin:14px 0 0;padding:0}
+  .kill-list li{font-size:14px;color:var(--ink-4);text-decoration:line-through;text-decoration-thickness:1px}
+  .killbox .kill-quote{margin-top:18px;font-family:var(--serif);font-style:italic;font-size:16px;line-height:1.5;color:var(--ink-3);max-width:62ch}
 
   /* ---------- verdict ---------- */
   .verdict{background:linear-gradient(180deg,#fbfbfd,#f0eeec)}
