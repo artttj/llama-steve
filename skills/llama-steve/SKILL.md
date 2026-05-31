@@ -51,12 +51,17 @@ Emit exactly this shape. `heat` is 1–3 (renders as 🔥 count). `effort` ∈ L
   "features": [
     { "rank": 1, "heat": 3, "name": "short imperative", "desc": "1-2 sentences, his voice", "effort": "LOW", "impact": "10×", "build": "1 weekend" }
   ],
+  "more": [
+    { "rank": 4, "heat": 2, "name": "runner-up he weighed", "desc": "1-2 sentences, his voice", "effort": "MED", "impact": "HIGH", "build": "a sprint" }
+  ],
   "killed": ["good idea he said no to", "..."],
   "verdict": { "stamp": "SHEEP IT", "quote": "humanized verdict in his voice" }
 }
 ```
 
-Keep `features` to ~3 (never more than 5). Rank by least effort ÷ most benefit. The kill list is the
+Keep `features` to ~3 (never more than 5) — the moves worth building now. Put any additional ranked
+ideas in `more` (optional, same shape as a feature); the report shows them collapsed under
+"+N more ideas he weighed". Rank everything by least effort ÷ most benefit. The kill list is the
 point — it proves focus.
 
 ---
