@@ -16,6 +16,7 @@
 ## Quick install
 
 ```
+/plugin marketplace add artttj/llama-steve
 /plugin install llama-steve
 ```
 

@@ -1,0 +1,11 @@
+{
+  "name": "llama-steve",
+  "owner": { "name": "Artem Iagovdik", "url": "https://github.com/artttj" },
+  "plugins": [
+    {
+      "name": "llama-steve",
+      "source": "./",
+      "description": "Llama Steve analyzes your actual product to identify and ship game-changing features. Maximize your conversion, cut user friction, and focus only on what wins."
+    }
+  ]
+}

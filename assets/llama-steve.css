@@ -117,7 +117,7 @@
   .sources{margin-top:30px;display:flex;flex-wrap:wrap;gap:8px}
   .src{font-size:12.5px;color:var(--ink-2);background:var(--bg-warm);
     border:1px solid var(--line);border-radius:980px;padding:6px 13px;font-weight:450}
-  @media(max-width:760px){.ad-card{grid-template-columns:1fr}.ad-stats{border-left:0;border-top:1px solid var(--line);flex-direction:row;flex-wrap:wrap}.ad-body{padding:36px 26px}}
+  @media(max-width:760px){.ad-card{grid-template-columns:1fr}.ad-stats{border-left:0;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;gap:22px 16px}.ad-body{padding:36px 26px}}
 
   /* ---------- the output demo ---------- */
   .out-head{text-align:center;margin-bottom:46px}
@@ -172,7 +172,7 @@
   .vquote{font-family:var(--serif);font-size:clamp(21px,2.6vw,29px);line-height:1.4;
     letter-spacing:-.01em;color:var(--ink)}
   .vquote .accent{color:var(--green-deep)}
-  .vquote .kw{font-weight:500}
+  .vquote .kw{font-weight:450}
   .vby{margin-top:20px;font-family:var(--display);font-size:14px;color:var(--ink-3);font-weight:500}
   .stamp{position:absolute;top:30px;right:34px;font-family:var(--display);font-weight:800;
     font-size:15px;letter-spacing:.06em;color:var(--green-deep);
