@@ -1,10 +1,21 @@
 {
   "name": "llama-steve",
-  "description": "A llama trained on the Steve Jobs archive tears down the repo you're in: runs a 10x teardown, kills the noise, and opens an Apple-white report on localhost with the 3 features worth your weekend and a humanized verdict.",
+  "description": "Llama Steve analyzes your actual product to identify and ship game-changing features. Maximize your conversion, cut user friction, and focus only on what wins.",
   "version": "0.1.0",
-  "author": { "name": "Artem Iagovdik", "email": "artem.iagovdik@y1.de", "url": "https://github.com/artttj" },
+  "author": {
+    "name": "Artem Iagovdik",
+    "email": "artem.iagovdik@y1.de",
+    "url": "https://github.com/artttj"
+  },
   "homepage": "https://github.com/artttj/llama-steve",
   "repository": "https://github.com/artttj/llama-steve",
-  "keywords": ["product", "10x", "steve-jobs", "teardown", "skills", "agent"],
+  "keywords": [
+    "product",
+    "10x",
+    "steve-jobs",
+    "teardown",
+    "skills",
+    "agent"
+  ],
   "commands": "./commands"
 }
