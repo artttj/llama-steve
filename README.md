@@ -44,6 +44,7 @@ and a blunt verdict that doesn't read like a robot wrote it.
 - The few features worth building, ranked by effort against payoff.
 - The good ideas he said **no** to. That list is the whole point.
 - One verdict, **SHEEP IT** or **SPIT IT**, in his voice and written to read like a person.
+- Curious? Expand the report to see up to 10 ideas he weighed, lowest-effort first.
 
 ## How it works
 

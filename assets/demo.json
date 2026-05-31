@@ -1,6 +1,6 @@
 {
   "product": { "name": "next.js", "oneLiner": "the React framework", "scannedAt": "2026-05-31T12:30:00Z", "scope": "20 packages · 140k★" },
-  "ideasConsidered": 14,
+  "ideasConsidered": 20,
   "features": [
     { "rank": 1, "heat": 3, "name": "Put the cache on screen",
       "desc": "Three caches decide whether my code even runs — fetch, full route, router — and every one is invisible. A cache I can't see isn't a feature, it's a bug with a delay on it. Show it in dev: what's cached, why, and how to bust it. Honest beats clever.",
@@ -11,6 +11,15 @@
     { "rank": 3, "heat": 2, "name": "Own the whole path, or stop pretending",
       "desc": "You're insanely good from my component to the edge, then you hand me a dozen ways to fetch, cache, and deploy and call it flexibility. Pick the one you'd stake your name on and make it the road. Half-owning the experience is exactly where it leaks.",
       "effort": "MED", "impact": "HIGH", "build": "ongoing" }
+  ],
+  "more": [
+    { "rank": 4, "heat": 2, "name": "Type the route, not the folder tree", "desc": "Filesystem routing is magic until you're hunting which of five folders owns a URL. Give me typed routes I can click through.", "effort": "MED", "impact": "MED", "build": "a month" },
+    { "rank": 5, "heat": 2, "name": "One blessed way to fetch data", "desc": "fetch, server actions, route handlers, RSC — pick the one you'd teach a junior and make the rest the exception.", "effort": "LOW", "impact": "MED", "build": "docs" },
+    { "rank": 6, "heat": 1, "name": "An error overlay that names the fix", "desc": "Don't hand me the stack trace. Hand me the one line to change and why.", "effort": "MED", "impact": "MED", "build": "2 weeks" },
+    { "rank": 7, "heat": 1, "name": "Make 'use client' the rare case", "desc": "It's become a reflex people paste to make errors go away. Default to the right boundary so they almost never type it.", "effort": "HIGH", "impact": "MED", "build": "a quarter" },
+    { "rank": 8, "heat": 1, "name": "One config file, fully commented", "desc": "next.config sprawls across plugins and flags. One file, every option explained inline.", "effort": "LOW", "impact": "LOW", "build": "a week" },
+    { "rank": 9, "heat": 1, "name": "A real way out", "desc": "When the magic fights me, give me a clean exit that doesn't feel like leaving the framework forever.", "effort": "HIGH", "impact": "LOW", "build": "a quarter" },
+    { "rank": 10, "heat": 1, "name": "Tell me what the build did", "desc": "One screen after build: routes, sizes, static vs dynamic, what got cached.", "effort": "MED", "impact": "MED", "build": "3 weeks" }
   ],
   "killed": ["the Pages Router (you have two — pick one)", "implicit caching magic", "middleware as a second backend", "the next.config sprawl", "three ways to load a font", "telemetry-by-default", "a plugin API for the plugin API", "RSC boundary footguns sold as 'flexibility'", "another image abstraction", "config for things that deserve one right default"],
   "verdict": { "stamp": "SHEEP IT", "quote": "You built the best way to ship React, then kept building more ways to ship React. Two routers. Five caches. A server component and a client component with a footgun on every line between them. When I came back to Apple I cut three hundred and fifty products down to ten, because focus isn't saying yes to the good idea — it's saying no to the thousand other good ideas. You have the opposite reflex. The power is real, and nobody can hold it in their head. Pick one router. Put the cache on screen. Tell one rendering story a kid gets on the first read. You don't need more surface. You need the nerve to delete half of it." }
