@@ -119,6 +119,8 @@
 
   /* ---------- the output demo ---------- */
   .out-head{text-align:center;margin-bottom:46px}
+  .real-tag{display:inline-flex;align-items:center;gap:8px;margin-top:18px;font-size:13px;color:var(--ink-3);font-weight:500}
+  .real-tag .rpip{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 0 4px rgba(72,220,85,.18)}
   .out-head .sec-sub{margin:14px auto 0}
   .terminal{
     border-radius:var(--r);overflow:hidden;border:1px solid var(--line-2);
