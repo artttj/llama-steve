@@ -51,8 +51,9 @@ and a blunt verdict that doesn't read like a robot wrote it.
 He's a llama who did the homework: the Steve Jobs biographies, the interviews, the keynotes, boiled
 down into the mental models and heuristics the man actually decided with. All of it ships inside the
 plugin, so there's nothing else to install and nothing to wire up. The teardown runs in your Claude
-Code session on whatever Claude model you're already using; set `LLAMA_STEVE_MODEL` to pin one. The
-report engine is the same one that powers llama-smith.
+Code session and defaults to the strongest Claude model available with full extended thinking — it's a
+judgment call, so it spends the reasoning; set `LLAMA_STEVE_MODEL` to pin a specific one. The report
+engine is the same one that powers llama-smith.
 
 ## License
 

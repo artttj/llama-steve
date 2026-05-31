@@ -8,9 +8,10 @@ the report on localhost.
 
 Requirements: Node 20+. No other dependencies — the persona, 10x, and humanizer skills are bundled.
 
-**Models.** The teardown runs inside your Claude Code session — Llama Steve thinks with whatever Claude
-model you're running (Claude by default, zero config). To prefer a specific Claude model for the run,
-export `LLAMA_STEVE_MODEL` in your shell (e.g. in `~/.zshrc`) and use it when set.
+**Models.** The teardown runs inside your Claude Code session. A teardown is a judgment task, so spend
+the reasoning: **by default, use the strongest Claude model available with maximum extended thinking.**
+If `LLAMA_STEVE_MODEL` is set, honor it; otherwise default to the strongest model on hand (Claude Opus)
+at full thinking. Don't quietly fall back to a smaller, faster model — strongest-by-default is the rule.
 
 Do this in order:
 
