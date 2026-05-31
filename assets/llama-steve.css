@@ -60,6 +60,7 @@
   h1 .sub .ed-name{font-family:var(--serif);font-style:italic;font-weight:300;color:var(--editorial)}
   .lede{position:relative;z-index:1;max-width:620px;margin:24px auto 0;
     font-size:clamp(17px,2.1vw,21px);color:var(--ink-2);line-height:1.5;font-weight:420}
+  .upside{position:relative;z-index:1;margin-top:16px;font-size:clamp(15px,1.7vw,18px);font-weight:600;color:var(--ink-2);line-height:1.4;letter-spacing:-.01em}
   .hero-cta{position:relative;z-index:1;display:flex;gap:14px;justify-content:center;
     align-items:center;margin-top:34px}
   .btn-primary{background:var(--ink);color:#fff;font-size:15px;font-weight:550;
