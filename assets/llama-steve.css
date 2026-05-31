@@ -173,7 +173,7 @@
   .vquote .kw{font-weight:450}
   .feat-desc .kw{font-weight:500}
   .more-feats{margin-top:2px}
-  .more-feats>summary{list-style:none;cursor:pointer;font-family:var(--mono);font-size:13px;color:var(--green-deep);padding:18px 0;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:8px}
+  .more-feats>summary{list-style:none;cursor:pointer;font-family:var(--display);font-size:14px;font-weight:600;letter-spacing:-.01em;color:var(--green-deep);padding:18px 0;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:8px}
   .more-feats>summary::-webkit-details-marker{display:none}
   .more-feats>summary::before{content:"\25B8";display:inline-block;transition:transform .15s}
   .more-feats[open]>summary::before{transform:rotate(90deg)}
