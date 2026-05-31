@@ -1,6 +1,6 @@
 {
   "name": "llama-steve",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "type": "module",
   "description": "Point him at your repo. He ships 3 features and spits on the rest.",
   "bin": {
