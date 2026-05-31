@@ -163,6 +163,12 @@
   .kill-list{list-style:none;display:flex;flex-wrap:wrap;gap:9px 16px;margin:14px 0 0;padding:0}
   .kill-list li{font-size:14px;color:var(--ink-4);text-decoration:line-through;text-decoration-thickness:1px}
   .killbox .kill-quote{margin-top:18px;font-family:var(--serif);font-style:italic;font-size:16px;line-height:1.5;color:var(--ink-3);max-width:62ch}
+  @media(max-width:600px){
+    .term-body{padding:24px 18px 28px}
+    .feat{flex-wrap:wrap;gap:6px 12px}
+    .rank,.heat{width:auto;padding-top:0}
+    .feat-main{flex:1 0 100%;margin-top:2px}
+  }
 
   /* ---------- verdict ---------- */
   .verdict{background:linear-gradient(180deg,#fbfbfd,#f0eeec)}
@@ -196,7 +202,7 @@
   /* ---------- final CTA ---------- */
   .final{text-align:center;padding:96px 0 30px}
   .final h2{font-size:clamp(30px,4.4vw,52px);letter-spacing:-.025em;font-weight:680;line-height:1.05}
-  .install{display:inline-flex;align-items:center;gap:14px;margin-top:30px;
+  .install{display:flex;width:fit-content;max-width:100%;margin:30px auto 0;align-items:center;gap:14px;
     font-family:var(--mono);font-size:14.5px;background:var(--ink);color:#fff;
     padding:14px 12px 14px 22px;border-radius:14px;box-shadow:0 14px 34px -12px rgba(0,0,0,.5)}
   .install .copy{background:rgba(255,255,255,.14);border-radius:8px;padding:6px 11px;font-size:12px;
